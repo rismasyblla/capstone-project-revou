@@ -10,7 +10,7 @@ body{
     scroll-behavior: smooth;
 }
 .wrapper{
-    width: 1024px;
+    width: 80%;
     margin-left: 30px;
     padding : 20px 0px 20px 0px;
 }
@@ -53,7 +53,8 @@ nav > .wrapper {
  }
  .logo > img{
    padding-left: 20px;
-    height : 45px;
+   height : 36px;
+   width: 40px;
  }
 
  header{
@@ -80,7 +81,7 @@ nav > .wrapper {
  .header-jumbotron{
     position:absolute;
     top : 0;
-    left; 0;
+    left : 0;
     display : flex;
     width: 100%;
     height: 100%;
@@ -138,7 +139,7 @@ nav > .wrapper {
 }
 
  #about{
-   background-color: #fff;
+   background-color: #EEF7FF;
    color: #153448;
  }
 
@@ -153,8 +154,8 @@ nav > .wrapper {
  #about > .wrapper > h4{
    text-align: center;
    font-size: 2rem;
-   margin : 0px;
-   padding :30px 0px 30px 0px;
+   margin: 0px 0px 10px 0px;
+   padding :30px 0px 10px 0px;
    font-family:"Kanit", sans-serif;
    text-transform: uppercase;
    letter-spacing: 1.5px;
@@ -168,7 +169,7 @@ nav > .wrapper {
 
 
  #statistic{
-   background-color: #fff;
+   background-color: #EEF7FF;
    color: #153448;
    font-family:"Kanit", sans-serif ;
    align-items: center;
@@ -206,7 +207,7 @@ nav > .wrapper {
  }
 
 #dashboard{
-   background-color:#CDE8E5;
+   background-color: #fff;
    color: #153448;
    font-family:"Kanit", sans-serif ;
    align-items: center;
@@ -215,23 +216,98 @@ nav > .wrapper {
  #dashboard > .wrapper{
    margin: 0 auto;
    padding: 0px 50px 30px 50px;
-   width : 80%;
-   display: flex;
-   justify-content: space-evenly;
+   width : 84%;
+   display: block;
  }
 
  #dashboard > .wrapper > h4{
    text-align: center;
    font-size: 2rem;
-   margin : 0px;
-   padding :30px 0px 30px 0px;
+   margin : 0 auto;
+   padding :30px 0px 20px 0px;
    text-transform: uppercase;
    letter-spacing:1.5px ;
+   display: flex;
+   justify-content: center;
+   display: block;
  }
+ #nav-dashboard{
+   background-color: #fff;
+   display:block;
+   float: left;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+ 
+ #nav-dashboard > .wrapper {
+   display: flex;
+   justify-content: space-evenly;
+   font-weight: bold;
+   width: 100%;
+   padding: 0px 0px 0px 0px ;
+}
 
- #analysis{
-   background-color:#7AB2B2;
-   color: #153448;
+form {
+   margin-bottom: 20px;
+}
+
+.frame{
+   display: grid;
+   grid-template-columns: 15% 15% 15% 15% 15% 15%;
+   grid-gap : 20px;
+   width: 100%;
+   text-align: center;
+   justify-content: center ;
+}
+
+.frame > .item {
+   border : 1px solid;
+   background-color: #153448;
+   border-radius: 5px;
+} 
+
+.frame > .item > p{
+   font-size: medium;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif ;
+   font-size: 18px;
+}
+
+.frame > .item > p > i{
+   margin-right: 1px;
+   font-size: 1.5rem;
+   color: #ffde3d;
+}
+
+.frame > .item > small{
+   color : #ffde3d;
+   font-size: 23px;
+   align-items: center;
+   text-align: center;
+}
+
+.chart {
+   width: 30%;
+   display: inline-block;
+   margin: 1%;
+   justify-content: space-around;
+}
+
+.chartwrapper {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+
+
+#analysis{
+   background-color:#E3F4F4;
+   color: #3C5B6F;
    font-family:"Kanit", sans-serif ;
    align-items: center;
  }
@@ -254,7 +330,7 @@ nav > .wrapper {
  }
 
  #team{
-   background-color:#3C5B6F;
+   background-color: #153448;
    color: #EEF7FF;
    font-family:"Kanit", sans-serif ;
    align-items: center;
@@ -276,7 +352,6 @@ nav > .wrapper {
    text-transform: uppercase;
    letter-spacing:1.5px ;
  }
-
 
 
  button.hamburger{
